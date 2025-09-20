@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-4 text-foreground">Trending Picks</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Discover what's popular and find hidden gems recommended by the community.
+              Discover what&apos;s popular and find hidden gems recommended by the community.
             </p>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function Home() {
             Join the Movie Revolution
           </h2>
           <p className="text-muted-foreground mb-8 text-lg max-w-2xl mx-auto text-pretty">
-            Be part of a growing community that's changing how we discover great movies
+            Be part of a growing community that&apos;s changing how we discover great movies
           </p>
           {!isAuthenticated && (
             <Link href="/register" className="btn btn-primary text-lg px-8 py-4 shadow-xl hover:shadow-2xl">
