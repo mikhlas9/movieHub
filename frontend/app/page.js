@@ -2,15 +2,12 @@
 import Link from "next/link"
 import { useAuth } from "./contexts/AuthContext"
 import { Film, Star, Users, TrendingUp, Play, LogIn, UserPlus, Sparkles } from "lucide-react"
-import Navbar from "./components/navbar"
 
 export default function Home() {
   const { isAuthenticated, user } = useAuth()
 
   return (
     <div className="min-h-screen bg-background">
-      {/* <Navbar /> */}
-
       <div className="container section-padding">
         <div className="text-center mb-20">
           <div className="flex justify-center mb-8">
